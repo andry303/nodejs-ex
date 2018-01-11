@@ -60,6 +60,8 @@ app.get('/', function (req, res) {
 res.sendFile(__dirname + '/views/hello.html');
 });
 
+
+
 app.get('/pagecount', function (req, res) {
   // try to initialize the db on every request if it's not already
   // initialized.
